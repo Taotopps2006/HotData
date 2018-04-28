@@ -1,0 +1,20 @@
+Have an initial shot at part 2 of the project here.
+data_cleaner.py strips out only the file-io requests we
+care about, converts all the data to integers (I think
+without loss of information) so the
+regular tensorflow objects can handle it. Currently a 
+few data fields are ommitted - I think this can
+be fixed - but even without those to
+learn from the model achieves high accuracy over the test set
+in very little training time.
+
+data_cleaner.py produces dataClean.csv, which I then manually
+broke up into trainingSet.csv and verificationSet.csv in a roughly
+80-20 ratio.
+
+hot_data_estimator.py  actually runs the model, hot_data.py is 
+invoked by hot_data_estimator, just like with the iris dataset
+files you provided.
+
+
+
