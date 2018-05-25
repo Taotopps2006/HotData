@@ -1,8 +1,6 @@
 # HotData
 
-CS 491
-
-Derek Stratton and Nick Harris
+Written for CS 491 by Derek Stratton and Nick Harris
 
 ## Useful Things:
 Microsoft Trace Download: http://iotta.snia.org/traces/158
